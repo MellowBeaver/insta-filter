@@ -18,8 +18,6 @@ R,G,B = img_filter.split()
 
 #Merge RGB vectors
 im=Image.merge("HSV",(r,G,B))
-im.show()
-
-# im.save('1_merge.jpg')
+im.save("filtered.jpg", "JPG")
 
 # RGB HSV CMYK
