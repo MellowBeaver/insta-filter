@@ -6,7 +6,7 @@ base_img = Image.open("433random.jpg")
 img_filter = Image.open("filter1.jpeg")
 
 #Set op img size
-size=(760,760)
+size=(250,250)
 
 # Resize all imgs
 base_img = base_img.resize(size)
